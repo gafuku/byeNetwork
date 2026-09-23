@@ -20,6 +20,11 @@ const spotlightVariants: Variants = {
   exit: { opacity: 0, y: -16, transition: { duration: 0.25 } },
 };
 
+const statusLabels: Record<string, string> = {
+  director: "National Team Member",
+  trustee: "Board of Trustees",
+};
+
 function getTeamForDept(leaders: Leader[], deptId: string): Leader[] {
   if (deptId === "executive") {
     return leaders.filter((leader) => leader.department.toLowerCase().includes("executive"));
@@ -110,7 +115,7 @@ export default function LeadershipDirectory({ activeRole }: { activeRole: string
                         />
                         <div className="absolute inset-0 bg-brand-brown mix-blend-multiply opacity-20" />
                         <span className="notch-sm absolute bottom-4 left-4 bg-brand-lime text-brand-brown text-xs font-bold uppercase tracking-wide px-3 py-1">
-                          {spotlight.status === "director" ? "National Team Member" : "Support Team"}
+                          {statusLabels[spotlight.status] ?? "Support Team"}
                         </span>
                       </div>
 
@@ -151,9 +156,11 @@ export default function LeadershipDirectory({ activeRole }: { activeRole: string
                                 <BsFacebook size={18} />
                               </a>
                             )}
-                            <a href={`mailto:${spotlight.socialMedia.email}`} className="text-brand-brown/50 hover:text-brand-chili transition-colors">
-                              <MdMarkEmailUnread size={20} />
-                            </a>
+                            {isRealSocialLink(spotlight.socialMedia.email) && (
+                              <a href={`mailto:${spotlight.socialMedia.email}`} className="text-brand-brown/50 hover:text-brand-chili transition-colors">
+                                <MdMarkEmailUnread size={20} />
+                              </a>
+                            )}
                           </div>
 
                           <Link

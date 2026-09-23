@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { FaUsers, FaCalendarAlt, FaChartLine, FaUniversity, FaBullhorn, FaUserTie, FaStar } from "react-icons/fa";
+import { FaUsers, FaCalendarAlt, FaChartLine, FaUniversity, FaBullhorn, FaUserTie, FaStar, FaHandshake } from "react-icons/fa";
 
 export type Department = {
   id: string;
@@ -14,6 +14,13 @@ export const departments: Department[] = [
     name: "Executive Leadership",
     icon: <FaUserTie />,
     description: "The visionary leaders who guide BYEN's mission, strategy, and overall direction.",
+  },
+  {
+    id: "trustees",
+    name: "Board of Trustees",
+    icon: <FaHandshake />,
+    description:
+      "Trustees provide governance, strategic guidance, and long-term support for BYEN's national growth and sustainability.",
   },
   {
     id: "finance",

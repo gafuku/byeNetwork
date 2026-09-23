@@ -3,7 +3,7 @@ export interface Leader {
   image: string;
   name: string;
   title: string;
-  status: "director" | "supportTeam" | string;
+  status: "director" | "trustee" | "supportTeam" | string;
   department: string;
   longBio: string;
   empowermentQuote: string;

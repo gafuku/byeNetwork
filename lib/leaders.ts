@@ -194,32 +194,6 @@ const leaders: Leader[] = [
     gallery: ["/Jordan Fischer Headshot - Jordan Fischer.PNG"],
   },
   {
-    id: "miles-darby",
-    image: "/IMG_2179 - Miles Darby.JPG",
-    name: "Miles Darby",
-    title: "Chapter President Advisor",
-    status: "director",
-    department: "Chapter Development",
-    longBio:
-      "Miles Darby is a Junior at Morehouse College majoring in Biology, Public Health, Pre-medical Track. As Chapter President Advisor, he supports local chapter growth and leadership development.",
-    empowermentQuote: "",
-    achievements: [
-      "Inaugural Chapter Founding President with Number 1 RSO recognition",
-      "National Geographic Community Conservation Intern",
-      "2 time San Francisco Department of Public Health Primary Care Equity Intern",
-      "MLS Next Sports Medicine Intern (Evaluated The highest level of youth soccer in the country)",
-    ],
-    education: "Morehouse College, Junior, Biology, Public Health, Pre-medical Track",
-    socialMedia: {
-      ig: "https://instagram.com/milesdrby",
-      x: "N/A",
-      linkedIn: "https://www.linkedin.com/in/miles-darby2024/",
-      facebook: "N/A",
-      email: "miles@wearebyen.org",
-    },
-    gallery: ["/IMG_2179 - Miles Darby.JPG"],
-  },
-  {
     id: "alex-chambers",
     image: "/IMG_4356 - Alex Chambers.jpeg",
     name: "Alex Chambers",
@@ -371,6 +345,59 @@ const leaders: Leader[] = [
       "/IMG_6641 - Jasmin Prothro.jpeg",
       "/IMG_9249 - Jasmin Prothro.jpeg",
     ],
+  },
+  {
+    id: "van-adamson-thompson",
+    image: "/Van_Adamson-Thompson .jpeg",
+    name: "Van Adamson-Thompson",
+    title: "Senior Business Analyst, McKinsey & Company",
+    status: "trustee",
+    department: "Board of Trustees",
+    longBio:
+      "Van Adamson-Thompson is a Senior Business Analyst at McKinsey & Company, currently serving on fellowship at Kiva, where he works to expand access to capital for underserved entrepreneurs. His professional experience spans strategy, finance, economic mobility, and public-private partnerships, with a focus on connecting private capital to public good.\n\nVan is the founder of the Middle Tyger Community Scholarship, a nonprofit leadership and mentorship program supporting high school seniors in South Carolina. Under his leadership, the organization has raised more than $45,000 and supported 10 scholars through scholarships, mentorship, and college preparation. In 2026, he received McKinsey's Marvin Award in recognition of his ethical leadership and integrity.\n\nHis previous experience includes Wall Street and the White House, nonprofit board service with the ImpactNC Foundation, and leadership roles in entrepreneurship coaching and mentorship. He currently serves on the UNC Young Alumni Leadership Council and the Robertson Scholars Leadership Program Alumni Council.\n\nA Robertson Scholar at Duke University and the University of North Carolina at Chapel Hill, Van holds a Bachelor of Arts in Economics from UNC and a certificate in Ethics & Society from Duke.\n\nAs a member of BYEN's Board of Trustees, Van brings expertise in organizational strategy, nonprofit leadership, economic mobility, and youth development. He is committed to strengthening BYEN's long-term sustainability, expanding its national presence, and connecting young Black leaders with the financial resources, professional networks, and mentorship necessary to achieve their ambitions.",
+    empowermentQuote: "",
+    achievements: [
+      "Founder of the Middle Tyger Community Scholarship, which has raised more than $45,000 and supported 10 scholars",
+      "2026 recipient of McKinsey's Marvin Award for ethical leadership and integrity",
+      "Member of the UNC Young Alumni Leadership Council and the Robertson Scholars Leadership Program Alumni Council",
+      "Robertson Scholar at Duke University and the University of North Carolina at Chapel Hill",
+    ],
+    education:
+      "University of North Carolina at Chapel Hill, B.A. Economics; Duke University, Certificate in Ethics & Society",
+    socialMedia: {
+      ig: "N/A",
+      x: "N/A",
+      linkedIn: "https://www.linkedin.com/in/vanadam-thomp/",
+      facebook: "N/A",
+      email: "N/A",
+    },
+    gallery: ["/Van_Adamson-Thompson .jpeg"],
+  },
+  {
+    id: "daniel-omachonu",
+    image: "/Daniel_Omachonu .jpeg",
+    name: "Daniel Omachonu",
+    title: "Senior Account Manager, Amazon Web Services (AWS)",
+    status: "trustee",
+    department: "Board of Trustees",
+    longBio:
+      "Daniel Omachonu is a Senior Account Manager at Amazon Web Services (AWS), where he works with leading artificial intelligence startups in New York City. His professional experience spans technology, artificial intelligence, finance, and business development.\n\nBefore joining AWS, Daniel worked in Sales and Trading at Goldman Sachs, specializing in hedge fund derivatives. He has also served on the boards of nonprofit organizations, including Art Start and Raised-By-Us, bringing experience in community engagement and organizational development.\n\nA graduate of Columbia University and a member of Alpha Phi Alpha Fraternity, Inc., Daniel is the founder of the Goodfellas Reading Club, a men's reading and volunteering group based in Brooklyn, New York. Beyond his professional and community work, he is also a hip-hop artist performing under the name Dan Kema.\n\nAs a member of BYEN's Board of Trustees, Daniel brings experience in technology, finance, strategic planning, communications, and nonprofit leadership. He seeks to support BYEN's long-term growth through strategic partnerships, fundraising, branding, and technology while expanding educational opportunities and access to professional networks for young Black leaders.",
+    empowermentQuote: "",
+    achievements: [
+      "Senior Account Manager at AWS, working with leading AI startups in New York City",
+      "Former Sales and Trading professional at Goldman Sachs, specializing in hedge fund derivatives",
+      "Nonprofit board service with Art Start and Raised-By-Us",
+      "Founder of the Goodfellas Reading Club, a men's reading and volunteering group in Brooklyn, New York",
+    ],
+    education: "Columbia University",
+    socialMedia: {
+      ig: "N/A",
+      x: "N/A",
+      linkedIn: "https://www.linkedin.com/in/danielomachonu/",
+      facebook: "N/A",
+      email: "N/A",
+    },
+    gallery: ["/Daniel_Omachonu .jpeg"],
   },
 ];
 

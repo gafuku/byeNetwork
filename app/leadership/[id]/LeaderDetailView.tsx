@@ -81,9 +81,11 @@ export default function LeaderDetailView({ leader }: { leader: Leader | null }) 
                 <BsFacebook size={16} />
               </a>
             )}
-            <a href={`mailto:${leader.socialMedia.email}`} className="notch-sm bg-white/10 hover:bg-brand-chili p-2.5 transition-colors">
-              <MdMarkEmailUnread size={18} />
-            </a>
+            {isRealSocialLink(leader.socialMedia.email) && (
+              <a href={`mailto:${leader.socialMedia.email}`} className="notch-sm bg-white/10 hover:bg-brand-chili p-2.5 transition-colors">
+                <MdMarkEmailUnread size={18} />
+              </a>
+            )}
           </div>
 
           {gallery.length > 1 && (
